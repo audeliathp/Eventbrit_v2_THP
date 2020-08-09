@@ -9,9 +9,6 @@
     <p>
       Vous avez un nouveau participant pour votre événement : <%= @attendance.event.title %> qui se déroulera le <%= @attendance.event.start_date.strftime("%d/%m/%Y") %>.
     </p>
-    <p>
-      Votre nouveau participant se prénomme <%= @attendance.user.first_name %>.
-    </p>
     <p> Vous pouvez faire le point sur votre événement en vous connectant ici : <%= @url %> </p>
   </body>
 </html>
