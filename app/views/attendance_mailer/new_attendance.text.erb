@@ -1,0 +1,8 @@
+Bonjour <%= @admin.first_name %> !
+==========================================================
+  
+Vous avez un nouveau participant pour votre événement : <%= @attendance.event.title %> qui se déroulera le <%= @attendance.event.start_date.strftime("%d/%m/%Y") %>.
+  
+Votre nouveau participant se prénomme <%= @attendance.user.first_name %>..
+  
+Vous pouvez faire le point sur votre événement en vous connectant ici : <%= @url %>
