@@ -12,4 +12,8 @@
 //
 //= require rails-ujs
 //= require activestorage
+<<<<<<< HEAD
+=======
+//= require turbolinks
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
 //= require_tree .

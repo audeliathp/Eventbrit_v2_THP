@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_08_10_113009) do
+=======
+ActiveRecord::Schema.define(version: 2020_08_08_215830) do
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,9 +50,12 @@ ActiveRecord::Schema.define(version: 2020_08_10_113009) do
     t.string "last_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
   end
 
   add_foreign_key "attendances", "events"

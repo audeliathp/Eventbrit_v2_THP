@@ -91,6 +91,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+<<<<<<< HEAD
 
   config.action_mailer.default_url_options = { :host => 'event-thp.herokuapp.com' }
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
 end

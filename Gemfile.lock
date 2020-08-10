@@ -48,6 +48,7 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+<<<<<<< HEAD
     bcrypt (3.1.15)
     better_errors (2.7.1)
       coderay (>= 1.0.0)
@@ -56,6 +57,9 @@ GEM
     bindex (0.8.1)
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
+=======
+    bindex (0.8.1)
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     bootsnap (1.4.7)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -83,6 +87,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
+<<<<<<< HEAD
     debug_inspector (0.0.3)
     devise (4.7.2)
       bcrypt (~> 3.0)
@@ -90,6 +95,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
@@ -131,7 +138,10 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+<<<<<<< HEAD
     orm_adapter (0.5.0)
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
@@ -179,9 +189,12 @@ GEM
       activesupport
       rails (>= 3.0.0)
       thor (>= 0.19.1)
+<<<<<<< HEAD
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     rexml (3.2.4)
     rspec-core (3.9.2)
       rspec-support (~> 3.9.3)
@@ -235,12 +248,21 @@ GEM
     tilt (2.0.10)
     time_difference (0.7.0)
       activesupport (~> 5.1)
+<<<<<<< HEAD
+=======
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+<<<<<<< HEAD
     warden (1.2.8)
       rack (>= 2.0.6)
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -257,14 +279,20 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-reset-pk-sequence
+<<<<<<< HEAD
   better_errors
   binding_of_caller
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+<<<<<<< HEAD
   devise
+=======
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
   dotenv-rails
   faker
   jbuilder (~> 2.5)
@@ -283,6 +311,10 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   table_print
   time_difference
+<<<<<<< HEAD
+=======
+  turbolinks (~> 5)
+>>>>>>> 05010483cda7526306d0870e70c01e554b5c15da
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
 
