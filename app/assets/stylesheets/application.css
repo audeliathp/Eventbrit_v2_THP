@@ -15,6 +15,6 @@
  */
 
 .jumbotron.jumbotron-fluid.text-center {
-  background-image: url("4k.jpg");
+  background-image: image-url("4k.jpg");
   background-size: cover;
 }
