@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.jumbotron.jumbotron-fluid.text-center {
+  background-image: url("4k.jpg");
+  background-size: cover;
+}
