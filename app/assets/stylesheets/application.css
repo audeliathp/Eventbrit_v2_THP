@@ -62,5 +62,9 @@
   opacity: 0.80;
 }
 
+.dropdown-item:hover {
+  background-color: #4EBD8C !important;
+}
+
 
 
