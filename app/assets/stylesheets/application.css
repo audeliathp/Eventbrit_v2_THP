@@ -20,5 +20,47 @@
   height: 100%;
 }
 
+.cardShowEvent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+}
+
+.Userinfos {
+  display: flex;
+  justify-content: end;
+  height: auto;
+}
+
+.nav.nav-tabs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 25% !important; 
+  border: solid 0.1px grey;
+  border-radius: 0.3rem;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 25% !important; 
+  border: solid 0.1px grey;
+  border-radius: 0.3rem; 
+  padding-top: 5px;
+}
+
+.card-body.Show {
+  opacity: 0.50;
+}
+
+.card-header.Show {
+  opacity: 0.80;
+}
+
 
 

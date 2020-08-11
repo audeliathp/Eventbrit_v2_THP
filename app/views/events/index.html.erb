@@ -10,6 +10,7 @@
         <h5 class="mt-0 text-center"><%= event.title  %></h5>
         <p class="text-info"><%= event.start_date.strftime("%d %B %Y")%></p>
         <p>Le prix de cet événement sera de <%= event.price %> euros</p>
+        <%= link_to "Afficher cet event", event_path(:id => event.id), class: 'btn btn-outline-success btn-sm' %>
       </div>
     </div>
   <% end %>
