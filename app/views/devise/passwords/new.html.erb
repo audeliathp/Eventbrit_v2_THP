@@ -1,4 +1,4 @@
-<h2 class="text-center" style="margin: 20px 0;">Forgot your password?</h2>
+<h2 class="text-center" style="margin: 20px 0;">Vous avez oublié votre mot de passe ?</h2>
 
 <div class="container text-center">
   <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
@@ -6,11 +6,11 @@
 
     <div class="form-group">
       <%= f.label :email %><br />
-      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %>
     </div>
 
     <div class="actions">
-      <%= f.submit "Send me reset password instructions" %>
+      <%= f.submit "Envoyez moi les instructions pour initialiser mon mot de passe", class: "btn btn-outline-success", style: "margin: 10px 0;" %>
     </div>
   <% end %>
 
